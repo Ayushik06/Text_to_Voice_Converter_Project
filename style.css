@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau Infant', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(75deg, rgb(233, 117, 136), rgb(60, 60, 233));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.hero h1 span {
+    color: rgb(238, 65, 123);
+    text-shadow: 5px 5px rgb(51, 2, 10);
+
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(217, 184, 208);
+    font-size: 15px;
+    font-family: 'ABeeZee', sans-serif;
+    border: 2px solid gray;
+    border-radius: 6px;
+    outline: 0;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder {
+    color: rgb(105, 88, 88);
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: linear-gradient(45deg, rgb(191, 11, 11), rgb(237, 158, 12), rgb(189, 33, 59));
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    width: 25px;
+    margin-right: 12px;
+}
+
+select {
+    flex: 1;
+    color: black;
+    background-color: white;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 2px solid gray;
+    border-radius: 6px;
+    appearance: none;
+    background-image: url('/img/dropdown.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
